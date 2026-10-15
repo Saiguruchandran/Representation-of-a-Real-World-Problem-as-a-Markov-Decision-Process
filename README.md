@@ -13,9 +13,16 @@ The aim of this project is to represent a smart waste collection system as a Mar
 
 ### Problem Description
 
-Write your answer here.
-
-Describe the real-world application that you selected.
+Waste management is a major challenge in urban areas due to the varying fill levels of garbage bins.
+Collecting garbage at fixed intervals can waste fuel, time, and resources.
+Delaying collection from nearly full bins may cause overflow and unhygienic conditions.
+To solve this problem, a Smart Waste Collection System is represented using a Markov Decision Process (MDP).
+The system considers four states: Low, Medium, High, and Overflow.
+It has two possible actions: Collect and Wait.
+Transition probabilities represent the uncertainty in waste accumulation and changes in bin levels.
+A reward function encourages efficient collection and penalizes unnecessary trips and overflowing bins.
+The Value Iteration algorithm is used to determine the optimal action for each state.
+The goal is to reduce unnecessary collection trips, use resources efficiently, and prevent garbage overflow.
 
 
 ---
