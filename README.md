@@ -49,9 +49,8 @@ Where:
 
 ## State Space
 
-Write your answer here.
 
-The state space should list all possible situations in which the agent can exist.
+The state space represents the different fill levels of a garbage bin. The system has four possible states:
 
 Example format:
 
