@@ -57,11 +57,14 @@ Example format:
 
 ```text
 S = {
-    State 1,
-    State 2,
-    State 3,
-    ...
+    State 0 - Low,
+    State 1 - medium,
+    State 2 - high,
+    State 3 - overflow
 }
+Therefore, the state space is:
+
+S = {Low, Medium, High, Overflow}
 ```
 
 
