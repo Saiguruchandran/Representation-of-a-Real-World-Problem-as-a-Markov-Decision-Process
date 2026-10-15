@@ -3,11 +3,9 @@
 
 ## Aim
 
-Write your aim here.
 
-Example:
+The aim of this project is to represent a smart waste collection system as a Markov Decision Process (MDP) and use the Value Iteration algorithm to determine the optimal time to collect garbage. The system aims to reduce unnecessary collection trips, save fuel and time, and prevent garbage bins from overflowing by choosing the best action based on the current bin's fill level.
 
-> To identify a real-world sequential decision-making problem and represent it formally as a Markov Decision Process by defining its states, actions, rewards, transitions, and Python representation.
 
 ---
 
